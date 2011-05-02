@@ -1,8 +1,8 @@
 <html>
 <head>
-<title><?=$title?></title>
+<title><?php echo $title; ?></title>
 </head>
 <body>
-<h1><?=$heading?></h1>
+<h1><?php echo $heading; ?></h1>
 </body>
 </html>
